@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando tabela</title>
+    <style>
+        table {
+            border: 1px solid rgba(0, 0, 0, 0.342);
+            box-shadow: 3px 3px 7px black;
+        }
+        th {
+            background-color: black;
+            color: white;
+        }
+        td, th{
+            padding: 5px;
+            width: 200px;
+        }
+        table tbody tr:nth-child(odd) {
+            background-color: #cecece;
+        }
+    </style>
+</head>
+<body>
+    <table summary="Tabela de Idade" cellspacing="2">
+        <caption>Tabela de Idade</caption>
+        <thead>
+            <tr>
+                <th colspan="2">Minha tabela</th>
+            </tr>
+            <tr>
+                <th title="Nome">Nome</th>
+                <th>Idade</th>
+            </tr>
+            
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Maria</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Marcos</td>
+                <td>21</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>7</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
