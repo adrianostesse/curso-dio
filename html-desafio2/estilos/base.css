@@ -61,6 +61,13 @@ p {
 }
 
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: #795548;
     min-height: 150px;
+}
+
+.footer > p {
+    padding: 2px;
+    font-size: 15px;
+    text-align: center;
+    margin: 5px;
 }
