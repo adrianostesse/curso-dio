@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clínica Amigo Fiel</title>
     <link rel="stylesheet" href="estilos/base.css" />
+    <style>
+      .content p {
+        font-size: 16px;
+      }
+    </style>
   </head>
   <body>
     <div class="wrapper">
@@ -22,33 +27,41 @@
 
     <div class="main">
         <div class="header">
-          <!-- Aqui vai o seu header -->
-          <img src="imagens/veterinary-6819364_1280.png" alt="banner da clínica" />
+          <img src="imagens/contato.png" alt="banner da clínica" />
         </div>
 
         <div class="content">
-        <h1>Bem-vindo à Clínica Veterinária Amigo Fiel!</h1>
-
-        <p>
-            Na Clínica Veterinária Amigo Fiel, nossa paixão é cuidar dos seus
-            queridos animais de estimação. Contamos com uma equipe altamente
-            qualificada, pronta para oferecer tratamentos personalizados e
-            atendimento de qualidade em todas as especialidades veterinárias.
-            Nosso espaço acolhedor e equipamentos de última geração garantem
-            diagnósticos precisos e tratamentos eficazes. <br> Priorizamos a
-            prevenção, oferecendo programas de vacinação e check-ups regulares
-            para manter seus animais saudáveis ao longo da vida. <br>
-            Agende uma consulta hoje mesmo e faça parte da nossa família de cuidadores comprometidos em proporcionar uma vida saudável e feliz para os animais. Clínica Veterinária Amigo Fiel - Onde o amor e a dedicação andam sempre de mãos dadas!
-        </p>
-
-        <p>Clínica Veterinária Amigo Fiel - Cuidando com amor e dedicação!</p>
-        
+        <h1>Estamos esperando por você e seu pet!<h1>
+        <p>Para entrar em contato conosco é fácil.</p>
+          <p>
+            Tel: 55 5555-5555 <br>
+            Também estamos no WhatsApp: 55 95555-5555 <br>
+            Email: clinicaamigofiel@clinica.com
+          </p>
+          <p>Você também pode nos fazer uma visita.<br>
+            R. dos Inconfidentes - Rezende, Varginha - MG, 37064-070
+          </p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3709.9622112093843!2d-45.4305863!3d-21.587398099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94caed4ab461ff8d%3A0x5663d26c0dbae767!2sR.%20dos%20Inconfidentes%20-%20Rezende%2C%20Varginha%20-%20MG%2C%2037064-070!5e0!3m2!1spt-BR!2sbr!4v1690571537479!5m2!1spt-BR!2sbr" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          
+          <p>Você pode entrar em contato por aqui e nós entraremos em contato com você!</p>
+          <form action="form.php" method="post">
+            <label for="inome">Nome:</label>
+            <input type="tel" name="nome" id="inome" required> <br>
+            <label for="iemail">Email:</label>
+            <input type="email" name="email" id="iemail" required> <br>
+            <label for="iassunto">Assunto:</label>
+            <input type="text" name="Assunto" id="iassunto" required> <br>
+            <label for="imsg">Mensagem:</label> <br>
+            <textarea name="msg" id="imsg" cols="35" rows="10"></textarea> <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+          </form>
     </div>
-
+    
         <div class="footer">
             <p>
                 Endereço: R. dos Inconfidentes - Rezende, Varginha - MG, 37064-070
-                Telefone: 55 5555-5555
+                Telefone: 55 5555-5555 / 55 95555-5555 (WhatsApp) <br>
                 E-mail: clinicaamigofiel@clinica.com
             </p>
 
