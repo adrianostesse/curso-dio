@@ -33,6 +33,16 @@ a, li {
     padding: 5px;
     font-size: 18px;
 }
+.content > p > a {
+    margin: 0;
+    font-size: 20px;
+}
+.content > p > a:hover {
+    text-decoration: underline;
+    background: none;
+    
+}
+
 a:hover {
     background-color: #522e20a9;
     border-radius: 5px;
@@ -50,7 +60,7 @@ a:hover {
     padding: 20px;
 }
 
-h1 {
+h1, caption {
     color: #f1f1f1;
 }
 
