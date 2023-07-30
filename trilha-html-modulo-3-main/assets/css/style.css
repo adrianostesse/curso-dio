@@ -5,6 +5,14 @@ body, html {
 }
 ul { list-style: none; padding-left: 5px; }
 a { color:blue; text-decoration: none;}
+section > p > a {
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+}
+.logo {
+    display: flex;
+}
 .bar {
     background-color: #f9f9fb;
     padding:15px;
@@ -35,4 +43,9 @@ a { color:blue; text-decoration: none;}
 }
 figure {
     text-align: center;
+}
+footer {
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
 }
