@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object-fit</title>
+    <style>
+        div {
+            width: 200px;
+            height: 300px;
+            border: 5px solid blue;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+        }
+        #contain {
+            object-fit: contain;
+        }
+        #cover {
+            object-fit: cover;
+        }
+        #none {
+            object-fit: none ;
+        }
+        #scale-down {
+            object-fit: scale-down;
+        }
+    </style>
+</head>
+<body>
+    <h1>Propriedade object-fit</h1>
+    <code>object-fit: fill;</code> (valor padrão)
+    <!-- Valor padrão. A imagem vai caber dentro de qualquer forma -->
+    <div>
+        <img src="Multiplayer_Screenshot2.png" alt="imagem" id="fill">
+    </div>
+    <br>
+    <code>object-fit: contain;</code> (valor padrão)
+    <!-- Mantém a proporção da imagem pra caber dentro -->
+    <div>
+        <img src="Multiplayer_Screenshot2.png" alt="imagem" id="contain">
+    </div>
+    <br>
+    <code>object-fit: cover;</code> (valor padrão)
+    <!-- A imagem vai preencher tudo e cortar o espaço q sobrar pra fora da box -->
+    <div>
+        <img src="Multiplayer_Screenshot2.png" alt="imagem" id="cover">
+    </div>
+    <br>
+    <code>object-fit: none;</code> (valor padrão)
+    <!-- A imagem ignora totalmente altura e largura da box e fica no tamanho original -->
+    <div>
+        <img src="Multiplayer_Screenshot2.png" alt="imagem" id="none">
+    </div>
+    <br>
+    <code>object-fit: scale-down;</code> (valor padrão)
+    <!-- A imagem vai depender do "contain" ou do "none" e exibe qual tiver menor entre esses -->
+    <div>
+        <img src="Multiplayer_Screenshot2.png" alt="imagem" id="scale-down">
+    </div>
+</body>
+</html> 
